@@ -1,6 +1,7 @@
 "use client";
 
 import BrandSection from "@/components/BrandSection";
+import CirclesPromo from "@/components/CirclePromo";
 import CollabSection from "@/components/CollabSection";
 import CommunitySection from "@/components/CommunitySection";
 import FeaturesSection from "@/components/FeaturesSection";
@@ -20,6 +21,7 @@ const HomePage = () => {
         <FeaturesSection />
         <BrandSection />
         <CollabSection />
+        <CirclesPromo />
         {/* <Footer /> */}
       </div>
     </>
