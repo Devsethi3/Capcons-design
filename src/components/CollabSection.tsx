@@ -10,8 +10,8 @@ import {
 } from "@/components/ui/accordion";
 import { motion } from "motion/react";
 import CreatorConnect from "./FeatureGrid";
-import { BlogSection } from "./BlogSection";
 import MagicReachDashboard from "./MagicReachDashboard";
+import BlogSection from "./BlogSection";
 
 const CollabSection = () => {
   return (
@@ -66,9 +66,7 @@ const CollabSection = () => {
           </TabsList>
 
           <TabsContent value="magic-reach" className="mt-6">
-            <motion.div
-              className="h-[70vh] container rounded-2xl md:p-8 relative overflow-hidden flex-shrink-0 bg-[#e2d9ed]"
-            >
+            <motion.div className="h-[70vh] container rounded-2xl md:p-8 relative overflow-hidden flex-shrink-0 bg-[#e2d9ed]">
               <div className="mt-5 mx-10">
                 <h1 className="text-2xl md:text-3xl xl:text-4xl font-extrabold text-gray-800 mb-4">
                   Magic Reach
@@ -164,7 +162,6 @@ const CollabSection = () => {
           viewport={{ once: true }}
           className="text-center my-16"
         >
-       
           <CreatorConnect />
         </motion.div>
 
@@ -175,66 +172,8 @@ const CollabSection = () => {
           viewport={{ once: true }}
           className="my-16"
         >
-          <h2 className="text-2xl font-bold text-purple-900 mb-8 text-center">
-            Related Blogs
-          </h2>
           <BlogSection />
         </motion.div>
-
-        <div className="my-16">
-          <h2 className="text-2xl font-bold text-purple-900 mb-8 text-center">
-            Frequently Asked Questions
-          </h2>
-          <Accordion
-            type="single"
-            collapsible
-            className="bg-white rounded-xl p-4"
-          >
-            <AccordionItem value="item-1">
-              <AccordionTrigger className="text-purple-800 font-medium">
-                How do I get started with Creator Connect?
-              </AccordionTrigger>
-              <AccordionContent>
-                Getting started is easy! Simply sign up for an account, complete
-                your profile, and start exploring the features. Our onboarding
-                process will guide you through setting up your first community
-                space.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2">
-              <AccordionTrigger className="text-purple-800 font-medium">
-                What are XP challenges and how do they work?
-              </AccordionTrigger>
-              <AccordionContent>
-                XP challenges are daily activities designed to help you grow
-                your community and engagement. Complete each challenge to earn
-                experience points that unlock special features and rewards.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger className="text-purple-800 font-medium">
-                How can I monetize my community?
-              </AccordionTrigger>
-              <AccordionContent>
-                Creator Connect offers multiple monetization options including
-                membership tiers, digital products, courses, and event tickets.
-                You can also enable tips and donations from your community
-                members.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-4">
-              <AccordionTrigger className="text-purple-800 font-medium">
-                What analytics are available for community managers?
-              </AccordionTrigger>
-              <AccordionContent>
-                Our comprehensive analytics dashboard provides insights on
-                member engagement, content performance, revenue streams, and
-                growth trends. You can export reports and set up custom
-                notifications for important metrics.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
       </div>
     </main>
   );

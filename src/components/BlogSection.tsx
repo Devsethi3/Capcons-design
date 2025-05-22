@@ -1,64 +1,74 @@
-"use client";
+import React from "react";
 
-import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
+const BlogSection = () => {
+  const blogPosts = [
+    {
+      id: 1,
+      image: "/blog-1.png",
+      title:
+        "Capcons gets 100k subscribers in one week. Capcons gets 100k subscribers in one week.",
+      alt: "Microphone with blurred colorful lights background",
+    },
+    {
+      id: 2,
+      image: "/blog-2.png",
+      title:
+        "Capcons gets 100k subscribers in one week. Capcons gets 100k subscribers in one week.",
+      alt: "Person celebrating with confetti",
+    },
+    {
+      id: 3,
+      image: "/blog-3.png",
+      title:
+        "Capcons gets 100k subscribers in one week. Capcons gets 100k subscribers in one week.",
+      alt: "Person working on laptop at desk",
+    },
+  ];
 
-const blogs = [
-  {
-    title: "Capture your 100k subscribers in one week",
-    subtitle: "Capture your 100k subscribers",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-  },
-  {
-    title: "Capture your 100k subscribers in one month",
-    subtitle: "Capture your 100k subscribers",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-  },
-  {
-    title: "Capture your 100k subscribers in one year",
-    subtitle: "Capture your 100k subscribers",
-    image: "/placeholder.svg?height=300&width=400",
-    link: "#",
-  },
-];
-
-export function BlogSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-      {blogs.map((blog, index) => (
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: index * 0.1 }}
-          viewport={{ once: true }}
-          className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-        >
-          <div className="relative h-48">
-            <Image
-              src={blog.image || "/placeholder.svg"}
-              alt={blog.title}
-              fill
-              className="object-cover"
-            />
+    <div className="w-full max-w-7xl mx-auto px-4 py-8">
+      {/* Header Section */}
+      <div className="flex justify-between items-center mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-purple-700">
+          Related Blogs
+        </h2>
+        <button className="bg-purple-700 hover:bg-purple-800 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors duration-200">
+          View All
+        </button>
+      </div>
+
+      {/* Blog Cards Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {blogPosts.map((post) => (
+          <div
+            key={post.id}
+            className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+          >
+            {/* Blog Image */}
+            <div className="aspect-video w-full overflow-hidden">
+              <img
+                src={post.image}
+                alt={post.alt}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+
+            {/* Blog Content */}
+            <div className="p-6">
+              <h3 className="text-gray-700 text-base leading-relaxed mb-6 line-clamp-3">
+                {post.title}
+              </h3>
+
+              {/* Read Article Button */}
+              <button className="bg-lime-400 hover:bg-lime-500 text-black px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200">
+                Read Article
+              </button>
+            </div>
           </div>
-          <div className="p-4">
-            <h3 className="text-sm font-bold text-purple-900 mb-2">
-              {blog.title}
-            </h3>
-            <p className="text-xs text-gray-600 mb-4">{blog.subtitle}</p>
-            <Link
-              href={blog.link}
-              className="inline-block bg-purple-600 text-white text-xs font-medium py-1 px-3 rounded-full hover:bg-purple-700 transition-colors"
-            >
-              Read Article
-            </Link>
-          </div>
-        </motion.div>
-      ))}
+        ))}
+      </div>
     </div>
   );
-}
+};
+
+export default BlogSection;
