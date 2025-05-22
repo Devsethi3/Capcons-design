@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Bricolage_Grotesque } from "next/font/google";
-import { TicketModalProvider } from "@/hooks/use-ticket-modal";
-import { Header } from "@/components/layouts/Header";
-import { Footer } from "@/components/layouts/Footer";
-import { TicketModal } from "@/components/modals/TicketModal";
-import { Toaster } from "@/components/ui/sonner";
+import { Raleway } from "next/font/google";
 
-const font = Bricolage_Grotesque({ weight: "400", subsets: ["latin"] });
+const font = Raleway({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,15 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${font.className} antialiased`}>
-        <TicketModalProvider>
-          <Header />
-          <main className="pt-20 min-h-screen">{children}</main>
-          <Footer />
-          <TicketModal />
-          <Toaster />
-        </TicketModalProvider>
-      </body>
+      <body className={`${font.className} antialiased`}>{children}</body>
     </html>
   );
 }
