@@ -3,10 +3,8 @@
 import BrandSection from "@/components/BrandSection";
 import CirclesPromo from "@/components/CirclePromo";
 import CollabSection from "@/components/CollabSection";
-import CommunitySection from "@/components/CommunitySection";
 import FeaturesSection from "@/components/FeaturesSection";
 import HeroSection from "@/components/HeroSection";
-import LogoSection from "@/components/LogoSection";
 import Navbar from "@/components/Navbar";
 
 const HomePage = () => {
