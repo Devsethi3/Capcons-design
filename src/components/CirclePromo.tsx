@@ -56,7 +56,6 @@ const CirclesPromo = () => {
         />
       </div>
 
-      {/* Screenshots */}
       <div className="relative flex justify-center mt-24 space-x-6 z-10">
         <Image
           src="/cta-1.png"
