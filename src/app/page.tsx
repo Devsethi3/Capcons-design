@@ -18,9 +18,8 @@ const HomePage = () => {
       <div className="bg-white -mt-6 rounded-t-[2rem]">
         <FeaturesSection />
         <BrandSection />
-        <CollabSection />
+        <CollabSection />w
         <CirclesPromo />
-        {/* <Footer /> */}
       </div>
     </>
   );
