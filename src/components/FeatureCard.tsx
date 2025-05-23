@@ -17,9 +17,11 @@ const FeatureCard = ({
   imageUrl,
 }: FeatureCardProps) => {
   return (
-    <div className={`rounded-2xl ${bgColor} pt-8 px-8 h-full flex flex-col justify-baseline`}>
-      <h3 className="text-2xl font-bold mb-4">{title}</h3>
-      <p className="text-gray-700 mb-6">{description}</p>
+    <div
+      className={`rounded-2xl ${bgColor} pt-8 h-full flex flex-col justify-baseline`}
+    >
+      <h3 className="text-2xl font-bold mb-4 px-8">{title}</h3>
+      <p className="text-gray-700 mb-6 px-8">{description}</p>
 
       <div className="mt-auto rounded-lg overflow-hidden">
         <motion.div
@@ -27,23 +29,33 @@ const FeatureCard = ({
           transition={{ duration: 0.3 }}
           className="relative"
         >
-          <div className="w-full h-60 md:h-72 lg:h-80 rounded-lg overflow-hidden relative">
-            <div className="absolute inset-0 flex items-center justify-center text-white">
+          <div className="w-full h-48 md:h-72 lg:h-80 rounded-lg overflow-hidden relative">
+            <div className="absolute inset-0 flex items-center text-white">
               {title === "S-Commerce" ? (
                 <Image
                   src="/s-commerce.png"
                   alt="s-commerce"
-                  className="mt-10"
+                  className="mt-10 absolute bottom-0"
                   width={600}
                   height={600}
                 />
               ) : (
-                <Image
-                  src="/gamification-1.png"
-                  alt="gamication"
-                  width={500}
-                  height={500}
-                />
+                <div className="relative flex items-center overflow-hidden">
+                  <Image
+                    src="/gamification-1.png"
+                    alt="gamication"
+                    className=""
+                    width={400}
+                    height={400}
+                  />
+                  {/* <Image
+                    src="/gamification-2.png"
+                    alt="gamication"
+                    className="absolute bottom-0 right-0"
+                    width={200}
+                    height={200}
+                  /> */}
+                </div>
               )}
 
               {/* {title === "S-Commerce" ? (

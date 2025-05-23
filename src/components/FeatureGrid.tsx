@@ -139,9 +139,9 @@ const CreatorConnect = () => {
             <div className="flex flex-col sm:flex-row gap-4 items-start shadow-lg rounded-2xl bg-white">
               <div className="relative w-full sm:w-auto h-full">
                 <img
-                  src="/monetization.png"
-                  alt="monetization"
-                  className="rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none w-full h-auto"
+                  src="/analytics.png"
+                  alt="analytics"
+                  className="rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none w-full h-[200px] object-cover"
                 />
               </div>
               <div className="flex flex-col items-start gap-4 p-4 sm:p-0 sm:py-4 sm:pr-4">

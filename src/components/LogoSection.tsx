@@ -47,7 +47,7 @@ const LogoSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60"
+        className="flex flex-wrap justify-center items-center gap-4 md:gap-12 opacity-60"
       >
         {partners.map((partner, index) => (
           <motion.div
@@ -83,4 +83,3 @@ const LogoSection = () => {
 
 export default LogoSection;
 
-// Make this logo section better with responsive design and animations

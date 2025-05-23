@@ -41,7 +41,7 @@ const CommunitySection = () => {
 
         <motion.div
           variants={avatarVariants}
-          className="absolute left-0 bottom-[-12%] w-20 h-20 rounded-full z-10 hover:scale-110 transition-transform duration-300"
+          className="absolute left-0 lg:bottom-[-12%] bottom-0 w-20 h-20 rounded-full z-10 hover:scale-110 transition-transform duration-300"
         >
           <Image
             src="/avatar-2.png"
@@ -54,7 +54,7 @@ const CommunitySection = () => {
 
         <motion.div
           variants={avatarVariants}
-          className="absolute left-[-5%] top-[20%] w-16 h-16 rounded-full z-10 hover:scale-110 transition-transform duration-300"
+          className="absolute left-[-5%] lg:top-[20%] top-0 w-16 h-16 rounded-full z-10 hover:scale-110 transition-transform duration-300"
         >
           <Image
             src="/avatar-3.png"
@@ -67,7 +67,7 @@ const CommunitySection = () => {
 
         <motion.div
           variants={avatarVariants}
-          className="absolute right-[-5%] top-[20%] w-20 h-20 rounded-full z-10 hover:scale-110 transition-transform duration-300"
+          className="absolute right-[-5%] lg:top-[20%] top-[-5%] w-20 h-20 rounded-full z-10 hover:scale-110 transition-transform duration-300"
         >
           <Image
             src="/avatar-4.png"
@@ -84,7 +84,7 @@ const CommunitySection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#2E134D] leading-tight px-4 sm:px-8"
+            className="text-[1.4rem] text-center sm:text-3xl md:text-4xl font-extrabold text-[#2E134D] leading-tight px-4"
           >
             Connect with like-minded individuals, share insights, exchange
             advice, and build meaningful relationships within a supportive

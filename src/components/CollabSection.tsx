@@ -3,19 +3,18 @@
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+
 import { motion } from "motion/react";
 import CreatorConnect from "./FeatureGrid";
-import MagicReachDashboard from "./MagicReachDashboard";
 import BlogSection from "./BlogSection";
 
 const CollabSection = () => {
   return (
-    <main className="min-h-screen bg-lavender-50">
+    <main className="min-h-screen container">
       <div className="py-8">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -65,45 +64,60 @@ const CollabSection = () => {
             </TabsTrigger>
           </TabsList>
 
-          <TabsContent value="magic-reach" className="mt-6">
-            <motion.div className="h-[70vh] container rounded-2xl md:p-8 relative overflow-hidden flex-shrink-0 bg-[#e2d9ed]">
-              <div className="mt-5 mx-10">
-                <h1 className="text-2xl md:text-3xl xl:text-4xl font-extrabold text-gray-800 mb-4">
-                  Magic Reach
-                </h1>
-                <p className="text-gray-600 font-bold text-sm md:text-base leading-relaxed">
-                  Lorem Ipsum is simply dummy text of <br /> the printing and
-                  typesetting industry.
-                </p>
+          <TabsContent value="magic-reach" className="mt-6 mx-2 lg:mx-0">
+            <Carousel
+              opts={{
+                align: "center",
+              }}
+              className="w-full"
+            >
+              <CarouselContent>
+                {Array.from({ length: 5 }).map((_, index) => (
+                  <CarouselItem key={index} className="">
+                    <motion.div className="h-[70vh] container rounded-2xl md:p-8 relative overflow-hidden flex-shrink-0 bg-[#e2d9ed]">
+                      <div className="mt-5 mx-10">
+                        <h1 className="text-2xl md:text-3xl xl:text-4xl font-extrabold text-gray-800 mb-4">
+                          Magic Reach
+                        </h1>
+                        <p className="text-gray-600 font-bold text-sm md:text-base leading-relaxed">
+                          Lorem Ipsum is simply dummy text of <br /> the
+                          printing and typesetting industry.
+                        </p>
 
-                <div className="absolute right-[5%] top-[10%]">
-                  <Image
-                    src="/reach-group.png"
-                    alt="reach-group"
-                    width={650}
-                    height={650}
-                  />
-                </div>
-              </div>
+                        <div className="absolute right-[5%] top-[10%]">
+                          <Image
+                            src="/reach-group.png"
+                            alt="reach-group"
+                            width={650}
+                            height={650}
+                          />
+                        </div>
+                      </div>
 
-              <div className="absolute bottom-0 left-[10%]">
-                <Image
-                  src="/character.png"
-                  alt="character"
-                  width={400}
-                  height={400}
-                />
-              </div>
+                      <div className="absolute bottom-0 left-[10%]">
+                        <Image
+                          src="/character.png"
+                          alt="character"
+                          width={400}
+                          height={400}
+                        />
+                      </div>
 
-              <div className="absolute top-[40%] left-[10%]">
-                <Image
-                  src="/crown.png"
-                  alt="character"
-                  width={100}
-                  height={100}
-                />
-              </div>
-            </motion.div>
+                      <div className="absolute top-[40%] left-[10%]">
+                        <Image
+                          src="/crown.png"
+                          alt="character"
+                          width={100}
+                          height={100}
+                        />
+                      </div>
+                    </motion.div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              {/* <CarouselPrevious />
+              <CarouselNext /> */}
+            </Carousel>
           </TabsContent>
 
           {/* Other tab contents would go here */}

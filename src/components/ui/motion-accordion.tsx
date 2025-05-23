@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import { MdOutlineExpandCircleDown } from "react-icons/md";
 import { cn } from "@/lib/utils";
 
 export interface AccordionItemProps {
@@ -32,22 +32,24 @@ export const AccordionItem: React.FC<AccordionItemProps> = ({
   return (
     <div
       className={cn(
-        "border border-border rounded-md overflow-hidden",
+        "rounded-2xl overflow-hidden",
         className
       )}
     >
       <motion.button
-        className="w-full flex items-center justify-between p-4 bg-card text-card-foreground hover:bg-accent/50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        className="w-full flex items-center justify-between p-4 text-white bg-[#8e2784]"
         onClick={handleToggle}
         aria-expanded={isExpanded}
         whileTap={{ scale: 0.98 }}
       >
-        <h3 className="text-lg font-medium">{title}</h3>
+        <h3 className="lg:text-lg text-base font-bold text-[#fff]">
+          {title}
+        </h3>
         <motion.div
           animate={{ rotate: isExpanded ? 180 : 0 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-          <ChevronDown className="h-5 w-5 text-muted-foreground" />
+          <MdOutlineExpandCircleDown className="h-5 w-5 text-white font-extrabold" />
         </motion.div>
       </motion.button>
       <AnimatePresence initial={false}>
@@ -61,7 +63,7 @@ export const AccordionItem: React.FC<AccordionItemProps> = ({
               opacity: { duration: 0.2, ease: "easeInOut" },
             }}
           >
-            <div className="p-4 bg-card border-t border-border">{content}</div>
+            <div className="p-4 text-white bg-[#8e2784] ">{content}</div>
           </motion.div>
         )}
       </AnimatePresence>

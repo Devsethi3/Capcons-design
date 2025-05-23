@@ -11,7 +11,7 @@ const FeaturesSection = () => {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <section className="pt-20 container" ref={ref}>
+    <section className="pt-20 container overflow-hidden" ref={ref}>
       <div className="flex flex-col lg:flex-row lg:gap-8 gap-3">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
