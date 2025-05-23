@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const CreatorConnect = () => {
   const containerVariants = {
@@ -22,16 +21,6 @@ const CreatorConnect = () => {
       transition: {
         duration: 0.6,
         ease: "easeOut",
-      },
-    },
-  };
-
-  const hoverVariants = {
-    hover: {
-      scale: 1.02,
-      transition: {
-        duration: 0.3,
-        ease: "easeInOut",
       },
     },
   };

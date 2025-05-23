@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "motion/react";
-import { Trophy, Star, Zap } from "lucide-react";
+import { Trophy, Star } from "lucide-react";
 import Image from "next/image";
 
 const MagicReachDashboard: React.FC = () => {
@@ -35,17 +35,6 @@ const MagicReachDashboard: React.FC = () => {
       transition: {
         duration: 0.5,
         ease: "easeOut",
-      },
-    },
-  };
-
-  const floatingVariants = {
-    animate: {
-      y: [0, -10, 0],
-      transition: {
-        duration: 3,
-        repeat: Infinity,
-        ease: "easeInOut",
       },
     },
   };
@@ -89,7 +78,7 @@ const MagicReachDashboard: React.FC = () => {
 
               {/* Challenge Grid */}
               <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 content-start">
-                {challengeDays.map((challenge, index) => (
+                {challengeDays.map((challenge) => (
                   <motion.div
                     key={challenge.day}
                     className={`relative p-3 md:p-4 rounded-2xl border-2 transition-all ${

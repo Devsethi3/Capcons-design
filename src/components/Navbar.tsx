@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import {  X, ChevronDown } from "lucide-react";
 import { RiMenu2Fill } from "react-icons/ri";
 import Image from "next/image";
 

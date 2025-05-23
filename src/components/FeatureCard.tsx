@@ -14,7 +14,6 @@ const FeatureCard = ({
   title,
   description,
   bgColor,
-  imageUrl,
 }: FeatureCardProps) => {
   return (
     <div

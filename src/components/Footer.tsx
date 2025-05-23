@@ -1,12 +1,3 @@
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Youtube,
-  Github,
-  FacebookIcon,
-} from "lucide-react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter, FaReddit } from "react-icons/fa6";
 import Image from "next/image";
@@ -60,7 +51,7 @@ const Footer = () => {
               Careers
             </a>
             <a href="#" className="hover:text-purple-200 transition-colors">
-              FAQ's
+              FAQ&apos;s
             </a>
             <a href="#" className="hover:text-purple-200 transition-colors">
               Media
