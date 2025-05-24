@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 
-// Sample avatar data - in a real app, you'd fetch this from an API
+// Sample avatar data - in a real app, you'd fetch this from an AP
 const avatars = [
   {
     id: 1,
