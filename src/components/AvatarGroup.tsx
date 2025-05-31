@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 
-// Sample ava
+// Sample av
 const avatars = [
   {
     id: 1,
