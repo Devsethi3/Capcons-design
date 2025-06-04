@@ -36,7 +36,7 @@ const BlogSection = () => {
         </button>
       </div>
 
-      {/* Blog Cards Grid */}
+      {/* Blog Cards Gri */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogPosts.map((post) => (
           <div
