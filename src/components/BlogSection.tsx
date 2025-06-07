@@ -42,7 +42,7 @@ const BlogSection = () => {
             key={post.id}
             className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
-            {/* B */}
+            {/* */}
             <div className="aspect-video w-full overflow-hidden">
               <img
                 src={post.image}
