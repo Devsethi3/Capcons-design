@@ -50,7 +50,7 @@ const BlogSection = () => {
               />
             </div>
 
-            {/*B*/}
+            {/**/}
             <div className="p-6">
               <h3 className="text-gray-700 text-base leading-relaxed mb-6 line-clamp-3">
                 {post.title}
