@@ -56,7 +56,7 @@ const BlogSection = () => {
                 {post.title}
               </h3>
 
-              {/* Read Article But */}
+              {/* Read Article Bu */}
               <button className="bg-lime-400 hover:bg-lime-500 text-black px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200">
                 Read Article
               </button>
