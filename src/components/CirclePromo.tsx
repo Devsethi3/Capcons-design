@@ -4,7 +4,7 @@ import Image from "next/image";
 const CirclesPromo = () => {
   return (
     <section className="relative bg-[#8E2784] container text-white pt-16 overflow-hidden rounded-2xl">
-      {/* Headi */}
+      {/* Head */}
       <div className="text-center max-w-2xl mx-auto z-10 relative">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
           Join Thousands of Successful Circles
