@@ -23,7 +23,7 @@ const CirclesPromo = () => {
         <div className="absolute w-4 h-4 rounded-full bg-lime-300 right-24 top-60" />
         <div className="absolute w-6 h-6 rounded-full bg-orange-400 right-40 top-32" />
 
-        {/* Circu */}
+        {/* Circ */}
         <Image
           src="/avatar-1.png"
           alt="user"
