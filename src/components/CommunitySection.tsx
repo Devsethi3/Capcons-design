@@ -22,7 +22,7 @@ const CommunitySection = () => {
       className="py-0 px-4 sm:px-6 lg:px-8 bg-gray-50 rounded-2xl lg:mt-8 mt-3 relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto relative">
-        {/* Ba */}
+        {/* B */}
         <div className="absolute top-[-10%] left-[10%] w-32 h-32 rounded-full bg-emerald-400 opacity-20 blur-2xl z-0" />
 
         {/* Floating avatars */}
