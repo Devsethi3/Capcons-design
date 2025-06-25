@@ -24,7 +24,7 @@ const CommunitySection = () => {
       <div className="max-w-6xl mx-auto relative">
         <div className="absolute top-[-10%] left-[10%] w-32 h-32 rounded-full bg-emerald-400 opacity-20 blur-2xl z-0" />
 
-        {/* Flo */}
+        {/* Fl */}
         <motion.div
           variants={avatarVariants}
           className="absolute bottom-[-10%] right-5 w-24 h-24 rounded-full z-10 hover:scale-110 transition-transform duration-300"
