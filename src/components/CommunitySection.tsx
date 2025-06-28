@@ -76,7 +76,6 @@ const CommunitySection = () => {
           />
         </motion.div>
 
-        {/* */}
         <div className="relative z-20 text-center max-w-4xl mx-auto py-20">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
