@@ -33,7 +33,7 @@ const CreatorConnect = () => {
         animate="visible"
         variants={containerVariants}
       >
-        {/* Hea */}
+        {/* He */}
         <motion.div
           className="text-center mb-12 lg:mb-16"
           variants={itemVariants}
