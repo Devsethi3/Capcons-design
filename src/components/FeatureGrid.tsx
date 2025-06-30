@@ -46,7 +46,7 @@ const CreatorConnect = () => {
           </p>
         </motion.div>
 
-        {/* Featur */}
+        {/* Featu */}
         <div className="flex flex-col xl:flex-row items-center gap-5">
           {/* First Column */}
           <div className="flex flex-col items-start gap-5 w-full xl:w-auto">
