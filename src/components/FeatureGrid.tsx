@@ -47,7 +47,7 @@ const CreatorConnect = () => {
         </motion.div>
 
         <div className="flex flex-col xl:flex-row items-center gap-5">
-          {/* First Co */}
+          {/* First C */}
           <div className="flex flex-col items-start gap-5 w-full xl:w-auto">
             <div className="shadow-lg text-start rounded-2xl p-4 bg-white w-full">
               <h3 className="text-xl mb-3 font-extrabold">Circles</h3>
