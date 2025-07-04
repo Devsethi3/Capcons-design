@@ -71,7 +71,7 @@ const CreatorConnect = () => {
             </div>
           </div>
 
-          {/* Second Col */}
+          {/* Second Co */}
           <div className="flex flex-col items-start gap-5 w-full xl:w-auto">
             <div className="flex flex-col gap-4 items-start shadow-lg rounded-2xl bg-white w-full">
               <div className="relative w-full h-full">
