@@ -88,7 +88,7 @@ const CreatorConnect = () => {
             </div>
           </div>
 
-          {/* Thi */}
+          {/* Th */}
           <div className="flex flex-col gap-5 w-full xl:w-auto">
             <div className="flex flex-col lg:flex-row items-center gap-5">
               <div className="flex flex-col gap-5 w-full lg:w-auto">
