@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-[#2b0972] to-[#39089d] to text-white pt-20">
       <div>
-        {/* Main content se */}
+        {/* Main content s */}
         <div className="text-center mb-12">
           <h2 className="lg:text-4xl text-2xl font-extrabold mb-4">
             Start Your Journey with CapCons!
