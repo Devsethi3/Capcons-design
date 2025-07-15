@@ -14,7 +14,7 @@ const Footer = () => {
             Join now and build your communications!
           </p>
 
-          {/* App download butt */}
+          {/* App download but */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
             <Image
               src="/googleplay.png"
