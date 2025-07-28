@@ -31,7 +31,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* */}
         <div className="flex flex-wrap gap-10 container items-center justify-between mb-8 text-sm">
           <div className="flex flex-col lg:flex-row gap-8">
             <a href="#" className="hover:text-purple-200 transition-colors">
