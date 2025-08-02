@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom section wit */}
+        {/* Bottom section wi */}
         <div className="flex flex-col md:flex-row justify-between items-center py-4 border-t border-purple-500">
           <div className="container flex items-center justify-between">
             <Image src="/logo.png" alt="logo" width={120} height={120} />
