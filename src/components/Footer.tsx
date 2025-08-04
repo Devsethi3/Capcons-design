@@ -83,7 +83,7 @@ const Footer = () => {
             <Image src="/logo.png" alt="logo" width={120} height={120} />
 
             <div className="text-xs text-purple-200 ml-6">
-              Copyright © 2025 Capcons Analytics Private Ltd. All rights
+              Copyright © 2025 Capcons Analytic Private Ltd. All rights
               reserved.
             </div>
           </div>
