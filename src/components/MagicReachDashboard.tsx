@@ -48,7 +48,7 @@ const MagicReachDashboard: React.FC = () => {
         animate="visible"
       >
         <div className="w-full flex items-center gap-6 md:gap-10 pb-4">
-          {/* Left Section - Magic Reach */}
+          {/* Left Section - Magic Reac */}
 
           {/* Center Section - 7-Day XP Challenge */}
           <motion.div
