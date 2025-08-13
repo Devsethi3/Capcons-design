@@ -49,7 +49,7 @@ const MagicReachDashboard: React.FC = () => {
       >
         <div className="w-full flex items-center gap-6 md:gap-10 pb-4">
 
-          {/* Center */}
+          {/* Cente */}
           <motion.div
             className="h-[70vh] min-w-[320px] md:min-w-[450px] bg-white rounded-3xl p-6 md:p-8 relative flex-shrink-0"
             variants={itemVariants}
