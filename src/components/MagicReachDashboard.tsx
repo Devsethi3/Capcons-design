@@ -53,7 +53,7 @@ const MagicReachDashboard: React.FC = () => {
             className="h-[70vh] min-w-[320px] md:min-w-[450px] bg-white rounded-3xl p-6 md:p-8 relative flex-shrink-0"
             variants={itemVariants}
           >
-            {/* XP Badg */}
+            {/* XP Bad */}
             <motion.div
               className="absolute -top-3 left-6 bg-lime-400 text-black px-4 py-2 rounded-full font-bold text-lg shadow-lg flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
