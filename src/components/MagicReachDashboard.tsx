@@ -89,7 +89,7 @@ const MagicReachDashboard: React.FC = () => {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                   >
-                    {/* Completion indicato */}
+                    {/* Completion indicat */}
                     <div
                       className={`absolute -top-2 -right-2 w-5 h-5 md:w-6 md:h-6 rounded-full flex items-center justify-center text-white text-xs font-bold ${
                         challenge.completed
