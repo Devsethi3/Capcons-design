@@ -73,7 +73,7 @@ const MagicReachDashboard: React.FC = () => {
                 </p>
               </div>
 
-              {/* Challeng  */}
+              {/* Challen */}
               <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 content-start">
                 {challengeDays.map((challenge) => (
                   <motion.div
