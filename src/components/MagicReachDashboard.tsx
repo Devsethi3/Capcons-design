@@ -164,7 +164,6 @@ const MagicReachDashboard: React.FC = () => {
             className="h-[70vh] min-w-[280px] md:min-w-[320px] flex flex-col gap-6 flex-shrink-0"
             variants={itemVariants}
           >
-            {/* */}
             <motion.div
               className="flex-1 bg-white rounded-3xl p-6 relative overflow-hidden"
               whileHover={{ y: -5 }}
