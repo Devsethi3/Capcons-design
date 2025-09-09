@@ -179,7 +179,7 @@ const MagicReachDashboard: React.FC = () => {
                 industry.
               </p>
 
-              {/* Decorative el */}
+              {/* Decorative e */}
               <div className="absolute bottom-2 right-2 opacity-20">
                 <motion.div
                   animate={{ rotate: 360 }}
