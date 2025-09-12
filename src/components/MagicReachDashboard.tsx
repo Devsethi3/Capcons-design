@@ -189,7 +189,7 @@ const MagicReachDashboard: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Winner */}
+            {/* Winne */}
             <motion.div
               className="flex-1 bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-6 relative border border-blue-200"
               whileHover={{ scale: 1.02 }}
