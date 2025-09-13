@@ -194,7 +194,7 @@ const MagicReachDashboard: React.FC = () => {
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
             >
-              {/* Trophy icon */}
+              {/* Trophy icn */}
               <motion.div
                 className="absolute top-4 right-4 text-purple-500"
                 animate={{ rotate: [0, 15, -15, 0] }}
