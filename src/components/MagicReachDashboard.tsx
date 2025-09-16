@@ -202,7 +202,7 @@ const MagicReachDashboard: React.FC = () => {
                 <Trophy size={20} />
               </motion.div>
 
-              {/* Deco */}
+              {/* Dec */}
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <motion.div
                   className="absolute top-2 left-6 text-yellow-400 text-sm"
