@@ -175,7 +175,7 @@ const MagicReachDashboard: React.FC = () => {
                 Course
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                Lorem Ipsum is simply dummy text of the printin and typesetting
                 industry.
               </p>
 
