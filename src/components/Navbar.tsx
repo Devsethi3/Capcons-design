@@ -17,7 +17,7 @@ const Navbar = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
-      // Show/hide navb
+      // Show/hide nav
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
         setShowNavbar(false);
       } else {
