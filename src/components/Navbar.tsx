@@ -23,7 +23,7 @@ const Navbar = () => {
         setShowNavbar(true);
       }
 
-      // Add background blur when scro
+      // Add background blur when scr
       setIsScrolled(currentScrollY > 50);
       setLastScrollY(currentScrollY);
     };
