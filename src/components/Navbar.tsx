@@ -23,7 +23,7 @@ const Navbar = () => {
         setShowNavbar(true);
       }
 
-      // Add background blu
+      // Add background bl
       setIsScrolled(currentScrollY > 50);
       setLastScrollY(currentScrollY);
     };
