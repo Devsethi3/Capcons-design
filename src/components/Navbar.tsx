@@ -23,7 +23,7 @@ const Navbar = () => {
         setShowNavbar(true);
       }
 
-      // Add backgrou
+      // Add backgro
       setIsScrolled(currentScrollY > 50);
       setLastScrollY(currentScrollY);
     };
