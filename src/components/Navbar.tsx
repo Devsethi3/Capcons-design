@@ -23,7 +23,7 @@ const Navbar = () => {
         setShowNavbar(true);
       }
 
-      // Add
+      // Ad
       setIsScrolled(currentScrollY > 50);
       setLastScrollY(currentScrollY);
     };
