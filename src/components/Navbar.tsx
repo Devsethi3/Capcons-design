@@ -31,7 +31,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  // Close mobile menu when clicking outs
+  // Close mobile menu when clicking out
   useEffect(() => {
     const handleClickOutside = () => {
       if (isOpen) setIsOpen(false);
