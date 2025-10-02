@@ -31,7 +31,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  // Close mobile menu when c
+  // Close mobile menu when
   useEffect(() => {
     const handleClickOutside = () => {
       if (isOpen) setIsOpen(false);
