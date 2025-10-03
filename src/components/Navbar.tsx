@@ -31,7 +31,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  // Close mobile m
+  // Close mobile
   useEffect(() => {
     const handleClickOutside = () => {
       if (isOpen) setIsOpen(false);
