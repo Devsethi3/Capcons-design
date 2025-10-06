@@ -110,7 +110,6 @@ const Navbar = () => {
     >
       <div className="container">
         <div className="flex justify-between items-center h-16">
-          {/* */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
