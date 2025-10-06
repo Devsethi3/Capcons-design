@@ -145,7 +145,7 @@ const Navbar = () => {
               href="/features"
               className="text-white hover:text-lime-400 transition-colors duration-200 font-medium"
             >
-              Features
+              Feature
             </Link>
             <div className="relative group">
               <Link
