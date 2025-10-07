@@ -128,7 +128,7 @@ const Navbar = () => {
             </Link>
           </motion.div>
 
-          {/* Desktop Navigat */}
+          {/* Desktop Naviga */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
