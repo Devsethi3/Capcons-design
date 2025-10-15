@@ -184,7 +184,7 @@ const Navbar = () => {
             </Link>
           </motion.div>
 
-          {/* Mo */}
+          {/* M */}
           <div className="md:hidden w-full flex items-center justify-between">
             <motion.button
               whileTap={{ scale: 0.95 }}
