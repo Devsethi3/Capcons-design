@@ -154,7 +154,7 @@ const Navbar = () => {
                 Resources
                 <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
               </Link>
-              {/* Dropdown menu can be added e */}
+              {/* Dropdown menu can be added */}
             </div>
             <Link
               href="/pricing"
