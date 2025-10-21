@@ -154,7 +154,7 @@ const Navbar = () => {
                 Resources
                 <ChevronDown className="ml-1 h-4 w-4 transition-transform group-hover:rotate-180" />
               </Link>
-              {/* Dr */}
+              {/* D */}
             </div>
             <Link
               href="/pricing"
