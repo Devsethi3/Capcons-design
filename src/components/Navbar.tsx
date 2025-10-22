@@ -236,7 +236,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mob */}
+        {/* Mo */}
         <AnimatePresence>
           {isOpen && (
             <motion.div
