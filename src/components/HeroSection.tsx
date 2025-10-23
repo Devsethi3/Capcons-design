@@ -18,7 +18,7 @@ const HeroSection = () => {
         </h1>
         <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl mx-auto">
           Strengthen connections, drive engagement, and grow a thriving
-          community. Reach audience, foste loyalty, monetize—free from
+          community. Reach audience, fost loyalty, monetize—free from
           ad and algorithm.
         </p>
         <motion.div
