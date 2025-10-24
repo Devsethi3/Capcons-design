@@ -19,7 +19,7 @@ const HeroSection = () => {
         <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl mx-auto">
           Strengthen connections, drive engagement, and grow a thriving
           community. Reach audience, fost loyalty, monetize—free from
-          ad and algori.
+          ad and algor.
         </p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
