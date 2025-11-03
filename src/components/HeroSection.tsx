@@ -18,7 +18,7 @@ const HeroSection = () => {
         </h1>
         <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl mx-auto">
           Strengthen connections, drive engagement, and grow a thriving
-          comm.
+          com.
         </p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
