@@ -17,7 +17,7 @@ const HeroSection = () => {
           Features to build, connect, and <br /> grow your community
         </h1>
         <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl mx-auto">
-          Strengthen connections, drive engageme.
+          Strengthen connections, drive engagem.
         </p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
