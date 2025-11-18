@@ -14,7 +14,7 @@ const HeroSection = () => {
         className="max-w-4xl mx-auto container"
       >
         <h1 className="lg:text-6xl md:text-4xl text-3xl text-white font-bold leading-tight">
-          Features to build, connect, and <br /> grow your commun
+          Features to build, connect, and <br /> grow your commu
         </h1>
         <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl mx-auto">
           Strengthen c,
