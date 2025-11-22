@@ -28,7 +28,7 @@ const HeroSection = () => {
             href="/start"
             className="inline-block bg-lime-400 hover:bg-lime-500 text-black font-bold rounded-full lg:px-8 px-6 lg:py-3 py-2 lg:text-lg text-base transition-colors"
           >
-            Start Now
+            Start No
           </Link>
         </motion.div>
       </motion.div>
