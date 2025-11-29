@@ -16,7 +16,7 @@ const HeroSection = () => {
         <h1 className="lg:text-6xl md:text-4xl text-3xl text-white font-bold leading-tight">
            <br />
         </h1>
-        <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl m">
+        <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w-3xl">
         </p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
