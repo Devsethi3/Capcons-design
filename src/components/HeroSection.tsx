@@ -13,7 +13,7 @@ const HeroSection = () => {
         transition={{ duration: 0.5 }}
         className="max-w-4xl mx-auto container"
       >
-        <h1 className="lg:text-6xl md:text-4xl text-3xl text-white font-bold leading-tight">
+        <h1 className="lg:text-6xl md:text-4xl text-3xl text-white font-bold leading-tigh">
            <br />
         </h1>
         <p className="mt-6 lg:text-lg text-sm sm:text-xl text-purple-100 max-w">
