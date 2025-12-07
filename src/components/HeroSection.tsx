@@ -6,7 +6,7 @@ import LogoSection from "./LogoSection";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-32 py-28 bg-[#39089D] text-e">
+    <section className="lg:py-32 py-28 bg-[#39089D] text">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
